@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="toolbox">
+            <div class="colors">
+                <div class="priority_color pink"></div>
+                <div class="priority_color blue"></div>
+                <div class="priority_color green"></div>
+                <div class="priority_color purple"></div>
+            </div>
+            <div class="action_buttons">
+                <div class="add">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="delete">
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+        </div>
+        <div class="notebook">
+            
+                <div class="pending_header">Pending
+                    <div class="pending_container">
+                       
+                        
+                    </div>
+                </div>
+                <div class="finished_header">Finished
+                    <div class="finished_container">
+                        
+                        
+                    
+                    </div>
+                </div>
+                <div class="model">
+                    <textarea placeholder="Enter the task" class="textarea"></textarea>
+                    <div class="taskColors">
+                        <div class="priority pink active"></div>
+                        <div class="priority blue"></div>
+                        <div class="priority green"></div>
+                        <div class="priority purple"></div>
+                    </div>
+                </div>
+                
+             
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

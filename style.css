@@ -1,0 +1,172 @@
+:root{
+    --pink:pink;
+    --blue:blue;
+    --green:green;
+    --purple:purple;
+    --red:red;
+}
+
+.toolbox{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: auto;
+    
+    
+}
+.colors{
+    display: flex;
+    height: 3rem;
+    width: 10rem;
+    margin-left: 100px;
+    background-color: grey;
+    align-items: center;
+    justify-content: space-around;
+                                
+}
+.priority_color{
+    height: 1rem;
+    width: 1rem;
+    cursor: pointer;
+}
+.pink{
+   background-color: var(--pink);
+}
+.blue{
+   background-color: var(--blue);
+}
+.green{
+    background-color:var(--green);
+}
+.purple{
+    background-color: var(--purple);
+}
+.red{
+    color: var(--red);
+}
+.action_buttons{
+    height: 3rem;
+    width: 6rem;
+    background-color: white;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.notebook{
+    display: flex;
+    
+}
+.pending_header{
+    
+    
+    text-align: center;
+   
+    font-size: 20px;
+    font-weight: bolder;
+   
+}
+.finished_header{
+    
+    
+    text-align: center;
+    
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.pending_container{
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 2px solid black;
+    
+}
+.card{
+    margin: 50px;
+    background-color: rgb(146, 147, 148);
+    height: 8rem;
+    width: 10rem;
+    position: relative;
+}
+.cardColor{
+    width: 10rem;
+    height: 1rem;
+}
+.finished_container{
+    width: 20vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_id{
+    text-align: left;
+    font-size: 0.6rem;
+    font-weight: lighter;
+}
+.task{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.lock{
+  position: absolute;
+  bottom: 2px;
+  right: 4px;
+  cursor: pointer;
+  color:black;
+  
+  
+}
+.fa-lock{
+    font-size: 12px;
+}
+.add{
+    cursor: pointer;
+}
+.delete{
+
+    cursor: pointer;
+}
+.model{
+    /* display: flex; */
+    display: none;
+    height:50%;
+    width: 50%;
+    
+    position: fixed;
+    top:25%;
+    right:25%;
+    
+}
+.taskColors{
+    background-color: black;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.priority{
+    width: 2rem;
+    height:2rem;
+    cursor: pointer;
+}
+.textarea{
+    
+    height: 99%;
+    width: 75%;
+    resize: none;
+    /* padding: 1rem; */
+}
+.active{
+    border: 2px solid white;
+}
+
